@@ -38,6 +38,7 @@
     "react-use-gesture": "^7.0.5",
     "react-with-gesture": "^4.0.8",
     "reactstrap": "^8.0.0",
+    "resize-observer-polyfill": "^1.5.1",
     "simple-line-icons": "^2.4.1",
     "styled-components": "^5.0.1"
   },

@@ -1,17 +1,16 @@
 import React, {Component, Suspense} from 'react'
-import Viewpager from '../../components/Spring/ViewPager'
-import './Main.css';
 import Loader from '../../components/Common/Loader';
-class Main extends Component {
+class UserInfo extends Component {
+  // api로 데이터 불러오기
   render() {
     return(
       <Suspense fallback={<Loader/>}>
-        <div className='ViewPaperContainer'>
-        <Viewpager/>
+        <div>
+          프로필 보여지는 곳
         </div>
       </Suspense>
     )
   }
 }
 
-export default Main;
+export default UserInfo;
