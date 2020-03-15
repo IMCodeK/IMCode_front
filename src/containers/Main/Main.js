@@ -5,11 +5,9 @@ import Loader from '../../components/Common/Loader';
 class Main extends Component {
   render() {
     return(
-      <Suspense fallback={<Loader/>}>
-        <div className='ViewPaperContainer'>
+      <div className="MainBody">
         <Viewpager/>
-        </div>
-      </Suspense>
+      </div>
     )
   }
 }

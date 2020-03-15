@@ -2,10 +2,14 @@ import React from 'react';
 
 
 const Card = () => (
-  <Spinner animation="border" role="status">
-    <span className="sr-only">Loading...</span>
-  </Spinner>
-  
+  <div>
+    <div>
+      제목
+    </div>
+    <div>
+      내용
+    </div>
+  </div>
 )
     
 
